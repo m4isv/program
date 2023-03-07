@@ -1,0 +1,17 @@
+total 56
+comando ls -l | tee -a log.out
+
+-rw-rw-r-- 1 masv masv  103 fev 24 23:36 ex0010.sh
+-rwxr--r-- 1 masv masv  177 fev 23 13:19 ex001.sh
+-rw-rw-r-- 1 masv masv  125 fev 23 13:49 ex002.sh
+-rw-rw-r-- 1 masv masv  243 fev 23 14:02 ex003.sh
+-rw-rw-r-- 1 masv masv  327 fev 23 14:40 ex004.sh
+-rw-rw-r-- 1 masv masv  167 fev 23 17:43 ex005.sh
+-rw-rw-r-- 1 masv masv  186 fev 24 11:11 ex006.sh
+-rw-rw-r-- 1 masv masv   60 fev 24 11:22 ex007.sh
+-rwxrwxr-x 1 masv masv  806 fev 27 13:33 ex008.sh
+-rw-rw-r-- 1 masv masv  487 fev 24 22:35 ex009.sh
+-rw-rw-r-- 1 masv masv  171 fev 25 15:38 ex010.sh
+-rw-rw-r-- 1 masv masv   38 fev 25 16:33 ex011.sh
+-rw-rw-r-- 1 masv masv  138 fev 28 21:35 proxy.sh
+-rw-rw-r-- 1 masv masv 1833 fev 28 21:35 proxy.txt
