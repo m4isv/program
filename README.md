@@ -1,3 +1,3 @@
 arquivos aleatorios
-de linguagens aprendida.
+de linguagens estudadas.
 
