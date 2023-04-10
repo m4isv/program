@@ -18,9 +18,9 @@ clear
 echo "AGUARDE..."
 sleep(10)
 
-pkg install git -y > /dev/null 2>&1
+pkg install git -y   > /dev/null 2>&1
 echo "INSTALANDO CURL..."
-pkg install curl -y > /dev/null 2&1
+pkg install curl -y  > /dev/null 2>&1
 
 echo "BAIXADO O SPACE VIM PARA EDITA CODIGO NO NVIM com autocomplete"
 curl -sLf https://spacevim.org/install.sh | bash
