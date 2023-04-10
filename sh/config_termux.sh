@@ -1,12 +1,12 @@
 clear
 
-echo -e "EXCUTE ESSE ESSE SCRIOT NO $HOME DO TERMUX\n\nATUALIZANDO TUDO AGUARDE...\n\n"
+echo -e "EXCUTE ESSE ESSE SCRIPT NO $HOME DO TERMUX\n\nATUALIZANDO TUDO AGUARDE...\n\n"
 
 #saida padrao 2> para saida de error &1 e tudo para null
 pkg update --fix-missing -y  #> /dev/null 2>&1
-pkg update -y             #> /dev/null 2>&1
-pkg upgrade -y            #> /dev/null 2>&1
-apt list --upgradable     $> /dev/null 2>&1
+pkg update -y                #> /dev/null 2>&1
+pkg upgrade -y               #> /dev/null 2>&1
+apt list --upgradable        #> /dev/null 2>&1
 
 
 echo "iINSTALANDO PYTHON E NEOVIM..."
