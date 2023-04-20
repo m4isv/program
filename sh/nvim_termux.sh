@@ -30,7 +30,7 @@ fi
 
 git clone https://github.com/outragedline/neovim-termux .config/nvim
 
-  
+echo "Entre no nvim e digite :PackerSync"
   
 
   
